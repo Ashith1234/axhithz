@@ -1,0 +1,110 @@
+
+body {
+color: red;
+}
+
+nav{
+  text-align: left;
+}  
+
+h1 {
+  color: darkblue;
+  margin: 0px 0px 0px 0px;
+}    
+
+p{
+font-size: 14px; 
+font-family: Arial,Helvetiva, sans-serif; 
+}
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100%;
+      background-color: gray;
+
+      width: 100%; 
+      text-align: center;
+      color: #7c2a00;
+
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    nav {
+      text-align: center;
+    }  
+
+    h1 {
+      color: #7c2a00;
+      margin: 0;
+      padding: 20px 0;
+    }    
+
+
+
+    
+
+    /* Class Selector */
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80vh; /* Adjust as needed */
+    }
+
+    /* .left {
+      flex: 1;
+      padding: 20px;
+      background-color: lightgreen;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+      background-color: lightcoral;
+    }
+
+    /* Descendant Selector */
+    .container h2 {
+      color: #333;
+    }
+
+    /* Child Selector */
+    nav > ul {
+      list-style-type: none;
+      padding: 0;
+<<<<<<< HEAD
+    } 
+nav :hover{
+  color: orange;
+}
+    nav > ul > li {
+      display: inline;
+      margin-right: 20px;
+      
+
+    }
+
+    nav > ul > li > a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    /* Adjacent Sibling Selector */
+    h1 + .container {
+      margin-top: 20px;
+    }
+
+    /* Attribute Selector */
+    p[title="important"] {
+      font-weight: bold;
+    }
+
+
+  
